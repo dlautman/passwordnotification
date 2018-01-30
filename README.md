@@ -5,10 +5,9 @@ Collection of scripts to check password status in Active Directory and to notify
 ## Why do I need this?
 Your envrionment may have set GPO to make passwords expire on a regular basis.  Your users may rely on AD but not regularly monitor when their passwords expire.  Windows 7+ does not do a great job of alerting users (compared to Windows XP) and you may have users that rely on AD but are not on the LAN or are not on Windows (remote users, MacOS users).  These scripts ensure your users are alerted  in a timely fashion about upcoming password expirations.
 
-## Script directory and variables
+## Script directory
 
-* ```PWChangeNotif-OnPremExchange.ps1``` - script to notify users their password is expiring via email sent using Exchange On-Prem.  This script works with Exchange 2010, 2013, 2016.  Variables to set:
-
+* ```PWChangeNotif-OnPremExchange.ps1``` - script to notify users their password is expiring via email sent using Exchange On-Prem.  This script works with Exchange 2010, 2013, 2016. 
 
 * ```PWChangeNotif-o365.ps1``` - script to notify users their password is expiring via email sent from Exchange Online (Office 365).
 
